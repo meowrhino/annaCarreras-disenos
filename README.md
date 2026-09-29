@@ -15,10 +15,12 @@ El contenido y el trabajo vivo están en
 |---|---|---|---|
 | 01 | [índice cronológico](01-indice-cronologico/) | integrado en la 02 como Archive | [`7f4a0de`](https://github.com/meowrhino/annaCarreras/tree/7f4a0deae4e0107bc07f95be76b66bca971b88f1) |
 | 02 | [selección + ficha](02-seleccion-ficha/) (líneas 5 + 6 sobre la 1) | en prueba, textos provisionales | [`fac8c2e`](https://github.com/meowrhino/annaCarreras/tree/fac8c2e7d03d48ee8154a86d50b5fb24253b5bbf) |
+| 03 | [la web es un output](03-web-output/) (línea A sobre la 02) | en prueba, marco provisional | [`ccde40e`](https://github.com/meowrhino/annaCarreras/tree/ccde40e64bfb3ea9ad251c5cfe9e9f3e0adbaa71) |
 
 ## Cómo se archiva un diseño
 
-1. Copiar la carpeta de la prueba (`index.html`, `style.css`, `app.js`) a una
+1. Copiar la carpeta de la prueba (`index.html`, `style.css`, `app.js` y los
+   `.js` que tenga) a una
    carpeta nueva `NN-nombre/`.
 2. En su `index.html`, fijar el contenido a un commit de annaCarreras:
 
