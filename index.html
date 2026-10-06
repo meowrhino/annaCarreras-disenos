@@ -11,21 +11,34 @@
   a { color: inherit; }
   ol { padding: 0; list-style: none; border-top: 1px solid; }
   li { display: grid; grid-template-columns: 2.5rem 1fr auto; gap: 1rem; padding: .6rem 0; border-bottom: 1px solid color-mix(in srgb, currentColor 20%, transparent); }
-  .n, .estado { opacity: .6; }
+  .n, .estado, .idea { opacity: .6; }
+  .idea { font-size: .85em; }
+  .var .n::before { content: '↳ '; }
+  h2 { font-size: 1rem; font-weight: 600; margin: 2rem 0 .5rem; }
+  li { grid-template-columns: 3rem 1fr auto; }
 </style>
 </head>
 <body>
 <h1>annaCarreras — diseños</h1>
 <p>Pruebas de diseño para annacarreras.com, también las descartadas. El trabajo vivo está en <a href="https://github.com/meowrhino/annaCarreras">meowrhino/annaCarreras</a>.</p>
+<h2>Listas de texto</h2>
 <ol>
-  <li><span class="n">01</span><a href="01-indice-cronologico/">índice cronológico</a><span class="estado">integrado en la 02</span></li>
-  <li><span class="n">02</span><a href="02-seleccion-ficha/">selección + ficha</a><span class="estado">descartada, sustituida por Rajoles</span></li>
-  <li><span class="n">03</span><a href="03-web-output/">la web es un output</a><span class="estado">sustituida por la 04</span></li>
-  <li><span class="n">04</span><a href="04-hoja-fija/">hoja fija</a><span class="estado">descartada, sustituida por Rajoles</span></li>
-  <li><span class="n">05</span><a href="05-portadas-vivas/">portadas vivas</a><span class="estado">descartada, sustituida por Rajoles</span></li>
-  <li><span class="n">06</span><a href="06-rajoles/">rajoles</a><span class="estado">sustituida: ahora el fondo es fijo y scrollea la hoja</span></li>
-  <li><span class="n">07</span><a href="07-fondo-fijo/">fondo fijo</a><span class="estado">descartada por Anna: contenido flotante, outdated</span></li>
-  <li><span class="n">08</span><a href="08-proto-abc/">proto A · B · C</a><span class="estado">descartadas, se rehace desde el feedback</span></li>
+  <li><span class="n">01</span><span><a href="01-indice-cronologico/">índice cronológico</a><br><span class="idea">tabla por año, sin imágenes</span></span><span class="estado">integrado en la 02</span></li>
+  <li><span class="n">08A</span><span><a href="08-proto-abc/a-index.html">índice tipográfico</a><br><span class="idea">la 01 a escala: 103 proyectos, décadas, portada al hover</span></span><span class="estado">descartada</span></li>
+</ol>
+<h2>Tarjetas a dos columnas</h2>
+<ol>
+  <li><span class="n">02</span><span><a href="02-seleccion-ficha/">selección + ficha</a><br><span class="idea">portada, título, año y una frase</span></span><span class="estado">descartada: genérica</span></li>
+  <li class="var"><span class="n">03</span><span><a href="03-web-output/">la web es un output</a><br><span class="idea">variante de la 02: la semilla tiñe la web y pinta un marco</span></span><span class="estado">sustituida por la 04</span></li>
+  <li class="var"><span class="n">04</span><span><a href="04-hoja-fija/">hoja fija</a><br><span class="idea">variante de la 03: la semilla solo pinta el marco</span></span><span class="estado">descartada: genérica</span></li>
+  <li class="var"><span class="n">05</span><span><a href="05-portadas-vivas/">portadas vivas</a><br><span class="idea">variante de la 04: Trossets on-chain en la portada</span></span><span class="estado">descartada: genérica</span></li>
+  <li><span class="n">08B</span><span><a href="08-proto-abc/b-grid.html">parrilla con filtro</a><br><span class="idea">filtro por categoría con su número de piezas</span></span><span class="estado">descartada</span></li>
+</ol>
+<h2>Fondo generativo</h2>
+<ol>
+  <li><span class="n">06</span><span><a href="06-rajoles/">rajoles</a><br><span class="idea">Trossets en rejilla, paleta del día, mandos en el pie</span></span><span class="estado">sustituida por la 07</span></li>
+  <li class="var"><span class="n">07</span><span><a href="07-fondo-fijo/">fondo fijo</a><br><span class="idea">variante de la 06: el fondo quieto, scrollea la hoja</span></span><span class="estado">descartada por Anna: outdated</span></li>
+  <li><span class="n">08C</span><span><a href="08-proto-abc/c-canvas.html">home generativa</a><br><span class="idea">Truchet a pantalla completa + índice debajo</span></span><span class="estado">descartada</span></li>
 </ol>
 </body>
 </html>
